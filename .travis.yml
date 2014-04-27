@@ -13,7 +13,7 @@ before_install:
 
 before_script:
     # Make sure the emulator has started before running tests
-    - wait_for_emulator
+    # wait_for_emulator
 
 script:
-    - TERM=dumb ./gradlew test connectedCheck
+    - TERM=dumb ./gradlew clean build
