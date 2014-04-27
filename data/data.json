@@ -1,0 +1,30 @@
+{
+	"play": 
+	{
+		"title": "Marea iubire a lui Sebastian",
+		"cover": "http://www.cotidianul.ro/images/stiri/0711/1312099648Marea%20iubire%20a%20lui%20Sebastian.JPG",
+		"website": "https://www.facebook.com/mareaiubirealuisebastian",
+		"director": "Diana Mihailopol",
+		"actors": ["Rodica Mandache", "Ana-Ioana Macaria", "Istvan Teglaş", "Marius Manole"],
+		"connections": ["Leny Caler", "Mihail Sebastian", "Jocul de-a vacanţa"],
+		"reviews": [
+			"http://www.revista-atelierul.ro/2014/01/10/marius-manole-prizonier-in-jocul-emotiei-creat-de-rodica-mandache/",
+			"http://bookaholic.ro/leny-caler-si-mihail-sebastian-isi-spun-povestea-in-marea-iubire-a-lui-sebastian.html",
+			"http://egophobia.ro/?p=9170",
+			"http://www.teenpress.ro/review/filme-si-teatru/marea-iubire-a-lui-sebastian-la-godot/",
+			"http://agenda.liternet.ro/articol/13712/Dan-Boicea/Cum-a-iubit-Mihail-Sebastian-Marea-iubire-a-lui-Sebastian.html"
+		]
+	},
+	"representation":
+	{
+		"date": "2014-01-12T12:00Z",
+		"price": "35 lei",
+		"location": {
+			"name": "Godot Cafe - Teatru",
+			"address": "14 Strada Blănari, Bucharest, Romania",
+			"website": "http://www.godotcafeteatru.ro",
+			"phone": "+40 21 316 1682"
+		},
+		"reservation": ["021 31 61 682", "0736 414 244"]
+	},
+}

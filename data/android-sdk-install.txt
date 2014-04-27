@@ -1,0 +1,5 @@
+curl -3L https://raw.github.com/embarkmobile/android-sdk-installer/version-2/android-sdk-installer | bash /dev/stdin --install=build-tools-18.1.0,android-17,sysimg-17 && source ~/.android-sdk-installer/env
+
+curl -3L https://raw.github.com/embarkmobile/android-sdk-installer/version-2/android-sdk-installer | bash /dev/stdin --install=tools,platform-tools,build-tools-19.0.3,doc-19,android-19,addon-google_apis_x86-google-19,addon-google_gdk-google-19,source-19,extra-android-support --dir=/opt/boxen/homebrew/Cellar/android-sdk/22.6.2 && source ~/opt/boxen/homebrew/Cellar/android-sdk/22.6.2/env
+
+android update sdk --no-ui -a --filter tools,platform-tools,build-tools-19.0.3,doc-19,android-19,addon-google_apis_x86-google-19,addon-google_gdk-google-19,source-19,extra-android-support
