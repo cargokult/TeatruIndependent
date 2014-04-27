@@ -3,7 +3,7 @@ jdk: oraclejdk7
 before_install:
     # Install base Android SDK
     - sudo apt-get install -qq libstdc++6:i386 lib32z1 expect
-    - cat android-sdk-installer | bash /dev/stdin --install=tools,platform-tools,build-tools-19.0.3,doc-19,android-19,addon-google_apis_x86-google-19,addon-google_gdk-google-19,source-19,extra-android-support
+    - curl -3L https://raw.github.com/embarkmobile/android-sdk-installer/version-2/android-sdk-installer | bash /dev/stdin --install=tools,platform-tools,build-tools-19.0.3,doc-19,android-19,addon-google_apis_x86-google-19,addon-google_gdk-google-19,source-19,extra-android-support
     - source ~/.android-sdk-installer/env
 
     # Create and start emulator
